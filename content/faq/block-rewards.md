@@ -27,3 +27,5 @@ Eventually 1,000,000,000 LBRY credits will exist. They are awarded on the follow
      years.
 
 * Block rewards ramp up slowly because we want to ensure that users are given some time to get LBRY up and running, and to avoid unfairly benefitting the earliest users.
+
+Wolfram Alpha chart for logarithmic mining reward schedule after ramp up period: http://www.wolframalpha.com/input/?i=plot+floor((floor(sqrt(x*144+%2B+1)+-+1)%2F2)*-1+%2B+500,+x+%3D+0+to+7300 (X-horizonal axis is in days, Y-vertical axis is LBC mineed per block)
